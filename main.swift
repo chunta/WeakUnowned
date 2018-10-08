@@ -5,7 +5,6 @@
 //  Created by nmi on 2018/10/8.
 //  Copyright © 2018 nmi. All rights reserved.
 //
-
 import Foundation
 
 print("Hello, World!")
@@ -69,4 +68,3 @@ class Customer {
 var c:Customer? = Customer.init()
 c!.myOrder.append(Order.init(orderPlaceBy: c!))
 c = nil
-
